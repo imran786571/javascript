@@ -1,617 +1,999 @@
 
-// //======== chapter no 21-25 task no 1
 
-// var fName = prompt("Please enter your first name: ");
-// var lName = prompt("Please enter your last name: ");
+// chapter No 1 Assignment Solution
 
-// var fullName = fName + " " + lName;
+// task no 1
+// alert("Welcome to JS alert");
 
-// alert("Hello " + fullName);
+//===== chapter no 1 task no 2
 
+// alert("Error! Please enter a valid password");
 
-// //===== chapter no 21-15 task no 2
 
-// var mobName = prompt("Please enter your favorite Mobile phone modal: ");
+//====== chapter no 1 task no 3
 
-// var stLength = mobName.length;
+// alert("Welcome to JS Land... \n Happy Coding!");
 
-// document.write("My Favorite phone is: " + mobName +"<br />Length of string: " + stLength);
+// ==== chatper no 1 task no 4
 
-// //============chapter no 21-25 task no 3
+// alert("Welcome to JS land..");
+// alert("Happy Coding!\n Prevent this page from creating additional dialogs");
 
-// var pak = "Pakistani";
-// var find = pak.indexOf("n");
 
-// document.write("String: " +pak +"<br />Index of 'n': " + find);
 
+// ======= chapter no 1 task no 5
 
-// // ======chapter no 21-25 task no 4
+console.log("Hello... I can run JS through my web brower's console");
 
-// var stH = "Hello World";
-// var lIndx = stH.lastIndexOf("l");
 
-// document.write("String: " + stH + "<br />Last Index of 'l': " + lIndx);
+// chapter NO 2 task 1
+var username;
 
+//==== chapter no 2 task 2
+var myName = "Imran Shah";
 
+// chapter no 2 task no 3
+// a;
+var message;
 
-// //===========chapter no 21-25 task no 5
+//b
+message = "Hello World";
+//alert(message);
 
-// var stPak = "pakistani";
 
-// var findIndex = stPak.charAt(3);
+// chapter no 2 task no 4
 
-// document.write("String: " + stPak + "<br />Character at index 3: " + findIndex);
+var nam = "Imran Shah";
+var age = 20;
+var eduction = "Certified Mobile Application Development";
 
+//alert("Name: " + nam + "\nAge: " + age + "\neduction: " + eduction);
 
-// //======= chapter no 21-25 task no 6
+//===== chapter no 2 task no 5
 
-// var fName = prompt("Please enter your first name: ")
-// var lName = prompt("Please enter your last name: ")
+var piz = "PIZZA \n PIZZ \n PIZ \n PI \n P"
 
-// var res = fName.concat(lName);
+//alert(piz);
 
-// document.write("Hello " + res);
+//========== chapter no 2 task no 6
 
+var email = "im.shah991@gmail.com";
 
-// //======= CHAPTER no 21-25 task no 7
+//alert("My email address is " + email);
 
-// var hyd = "Hyderabad";
-// var res = hyd.replace("Hyder", "Islam");
+//chapter no 2 task no 7
+var book = "A smarter way to learn JavaScript";
 
-// document.write("City: " + hyd + "<br />After replacement: " + res);
+//alert("i am tring to learn from the Book " + book);
 
+// ========== chapter no 2 task no 8
+//document.write("Yah! I can write HTML content through JavaScript");
 
 
-// // ===== chapter no 21-25 task no 8 
+//======= chapter no 2 task no 9
+var storData = "---------ஜ۩۞۩ஜ---------";
+//alert(storData);
 
-// var message = "Ali and Sami are best friends. They play cricket and football together.";
-// var res = message.replace(/and/g, "&");
 
-// document.write("Messge: " + message + "<br /><br /> after replace: " + res);
+// ==== chapter no 3 task no 1
 
+//var age = 20;
+//alert("I am " + age + " years old");
 
-// //========== chapter no 21-25 task no 9
+//===== chapter no 3 task no 2
 
-// var st = "472";
+// var visit = 14;
+//alert("You have visited site " + visit + " tiems")
 
-// var changeType = parseInt(st);
+//===== chapter no 3 task no 3
 
-// document.write("Value: " + st + "<br />Type: " + typeof(st) + "<br />Value: " + changeType +"<br />Type: " + typeof(changeType));
 
+// var birthYear = 1991;
 
-// //===== chapter no 21-25 task no 10
+// document.write("My birth year is " + birthYear + "<br/>" + "Data type of my ddclared variable is number:")
 
-// var userInput = prompt("Please enter any string: ");
+//===== chapter no 3 task no 4
 
-// var changeUper = userInput.toUpperCase();
+// var visiterName = "Imran shah";
+// var productTitle = "T-shirt(s)";
+// var quantity = "5";
+// document.write(visiterName.bold() + " ordered " + quantity.bold() +" " + productTitle.bold() + "on XYZ Clothing soter");
 
-// document.write("User input: " + userInput + "<br />Upper case: " + changeUper);
 
+//chapter NO 4;
 
-// //==========chapter no 21-25 task no 11
-// var stringUser = prompt("Please enter any string : ");
+// var  head = "Rules for naming JS variables";
+// var num = "numbers,";
+// var  desh = "_";
+// var doler = "$";
+// var le = "letter";
+// var sen = "sensitive";
+// var key = "keywords";
+// var space = " ";
 
-// var titleCase = stringUser.charAt(0).toUpperCase();
+// document.writeln(head.bold() + "<br /><br /><br />");
 
-// var re = stringUser.replace(stringUser.charAt(0), titleCase);
+// document.writeln("Variable names can only contain. " + num +space + doler + " and " +desh +" .For example <b>$my_1stVariable</b>");
+// document.writeln("<br />Variable must begin with a letter, " +doler +" or " + desh + " For example <b>$name, _name or name</b>");
+// document.writeln("<br /> Variable names are case " + sen.bold());
+// document.writeln("<br />Variable names should not be JS " + key.bold());
 
-// document.write("User Input: " + stringUser + "<br />Title Case: " + re);
 
+// =====chatper NO: 05 task no 1 & task no 2 
 
-//==========chapter no 21-25 task no 12 
+// var num1 = 3;
+// var num2 = 5;
 
-// var num = 35.36;
-// var r = num.toString();
-// r = r.replace(".", "");
-// document.write("Number: " + num + "<br />Result: " + r);
+// var add = num1 + num2;
+// var sub = num2 - num1;
+// var multi = num1 * num2;
+// var div = num1 / num2;
+// var mud = num1 % num2;
 
+// document.write("Sum Of " + num1 + " and " + num2 + " is " + add);
+// document.write("<br />Subtraction Of " + num2 + " and " + num1 + " is " + sub);
+// document.write("<br />Multiplication Of " + num1 + " and " + num2 + " is " + multi);
+// document.write("<br />Division Of " + num1 + " and " + num2 + " is " +div);
+// document.write("<br />Modulus Of " + num1  +" and " + num2 + " is " + mud);
 
-// //======= chapter no 21-255 task no 13
+// ===== chapter NO: 05 task no 3 
 
-// var userName = prompt("Please enter your username without special symbol")
+//  // a
+//  var myVariable ;
+//  //document.write("Value after variable declaration is: " + myVariable + "<br />");
+//  // b 
+//  myVariable = 5;
+//  //document.write("Initial value: " + myVariable + "<br />");
 
-// if(userName.match(/@/g) || userName.match(/,/g) || userName.match(/!/g) ) {
-//     alert("Please enter a valid username");
-// } else {
-//     alert("username is: " + userName);
-// }
 
+//  //e 
+//  myVariable = myVariable + 1;
+//  //document.write("Value after increment is: " + myVariable);
 
-// // ============ chapter no 21-25 task no 14
-// var useerInput = prompt("Welcome to ABC Bakery What do you want to order sir/ma'am?");
-// var a = ["cake", "apple pie", "cookie", "chips", "patties"];
+//  //g 
+//  myVariable = myVariable + 7;
 
-// var change = useerInput.toLowerCase();
+//  //document.write("<br />Value after addition is: " + myVariable + "<br />");
 
-// var ind = a.indexOf(change);
+//  //i 
+//  myVariable = myVariable - 1;
+// // document.write("Value after decrement is: " + myVariable + "<br />")
 
-// if(a.indexOf(change) != -1) {
-//     document.write(useerInput + " is <b>available</b> at index of " + ind + " in our bakery");
-// } else{
-//     document.write("We are sorry." + useerInput + " is <b>not available in our bakery");
-// }
+//  //j 
+//  myVariable = myVariable % 3;
+//  //document.write("The remainder is : " + myVariable);
 
+ //======== chapter NO: 5 task no 5
 
+//  var ticket = 600;
 
-// //====== chapter no 21-25 task no 16
+//  var buyTicket = ticket * 5;
 
-// var uni = "University of Karachi";
-// var res = uni.split(" ");
+ //document.write("Total cost to buy 5 tickets to a movies is " + buyTicket +"PKR");
 
-
-
-
-// //=======chapter no 21-25 task no 17
-// var txt = prompt("Please enter any string here: ");
-
-// var strlength = txt.length;
-// var last = txt.charAt(strlength - 1)
-// document.write("User input: " + txt + "<br />Last character of input: " + last);
-
-
-// //======chapte no 21-25 task no 18 
-
-// var text = "The quick brown fox jumps over the lazy dog";
-// var textChange = text.toLowerCase();
-
-// var count = textChange.match(/the/g).length;
-
-// document.write("Text: " + text +"<br /> The are " + count + " occurence(s) of word 'the'");
-
-
-
-// //======== chapter no 26-30 task no 1
-
-//  var positive = +prompt("Please enter positive integer: ");
-
-//  if(positive < 1) {
-//      alert("Please enter a positive number:")
-//  } else {
-     
-//      var round = Math.round(positive);
-//      var floor = Math.floor(positive);
-//      var c = Math.ceil(positive);
-    
-//      document.write("number: " + positive + "<br />round off value: " + round +"<br />floor value: " + floor +"<br />Ceil value: " + c);
+ //======chapter no 5 task no 6
+ 
+ //  var table = 4;
+//  document.write("Table of " + table + "<br />")
+//  for(var i = 1; i <= 10; i++) {
+//     document.write(table + " x " + i + " = " +table * i + "<br />");
 //  }
 
 
+ //====chapter NO: 05 task no 6
 
-// //======== chapter no 26-30 task no 2
+//  var c = 25;
+//  var f = 70;
 
-//  var negative = +prompt("Please enter negative integer: ");
+//convert it to fehrenhit
+// var f2 = (c * 9 / 5) +32;
+// document.write(c + "<sup>o</sup>C is "+ f2 + "<sup>o</sup>F" + "<br />")
 
-//  if(negative > 1) {
-//      alert("Please enter a negative number:")
-//  } else {
-     
-//      var round = Math.round(negative);
-//      var floor = Math.floor(negative);
-//      var c = Math.ceil(negative);
-    
-//      document.write("number: " + negative + "<br />round off value: " + round +"<br />floor value: " + floor +"<br />Ceil value: " + c);
+ //convert it to celsius
+//  var c2 = (f - 32) * 5 /9;
+// document.write(f + "<sup>o</sup>F is " + c2 + "<sup>o</sup>C")
+
+//=====chapter no : 05 task no 7
+
+// var price1 = 650;
+// var price2 = 100;
+
+// var qItem1 = 3;
+// var qItem2 = 7;
+// var shipingCharge = 100;
+
+// var result = price1 * qItem1 + price2 * qItem2 + shipingCharge;
+// document.write("<h1>Shopping Cart</h1><br /><br /><br />Price of item 1 is " + price1 +"<br />" +"Quantity of item 1 is " + qItem1 +"<br />" 
+//                + "Price of item 2 is " +price2 +"<br />" + "Quantity of item 2 is " + qItem2 +"<br />"
+//                + "Shipping Charges " + shipingCharge +"<br /><br />");
+// document.write("Total Cost of your order is " + result);
+
+
+//====== chapter no 05 task no 8
+
+// var totalMarks = 980;
+// var obtainMarks = 804;
+
+// var percent = (obtainMarks / totalMarks) * 100;
+// document.write("<h2>Marks Sheet</h2><br /><br />Total Marks: " +totalMarks + "<br />" + "Marks obtained: " 
+//                +obtainMarks +"<br />" + "Percentage: " + percent+"%");
+
+
+//===== chapter no 05 task no 09
+
+// var usDollar = 10;
+// var saudiRiyals = 25;
+
+// var final = usDollar * 104.80 + saudiRiyals * 28; 
+// document.write("<h2>Currency in PKR</h2><br /><br />Total Currency in PKR: " + final);
+
+//======= chapter no 05 task no 10
+
+// var n = 2;
+
+// n = (n + 5) *10 / 2;
+// alert(n);
+
+
+//==== chapter no 05 task 11
+
+// var cYear = 2020;
+// var bYear = 1994;
+
+// var yAge = cYear - bYear;
+
+// document.write("<h2>Age Calculator</h2><br /><br />Current Year: " + cYear +"<br />" + "Birth Year: " + bYear +"<br />" +"Your Age is: " + yAge);
+
+
+//===== chapter no 05 task no 12
+
+// var r = 20;
+
+// math PI 
+// var r1 = Math.PI * r * r;
+
+// math round
+// var r2 = (Math.round(Math.PI * r * r * 100) / 100);
+
+// document.write("<h2>The Geometrizer</h2><br /><br />Redius of a circle: " + r +"<br />"
+//                + "The circumference is: " + r1 + "<br />"
+//                + "The area is: " + r2);
+
+
+//======chapter no 05 task no 13;
+
+// var fSnack = "chocolate chip";
+// var curAge = 15;
+// var maxAge = 65;
+// var amountPday = 3;
+
+// var totalc = (maxAge - curAge) * amountPday ;
+
+// document.write("<h2>The Lifetime Supply Calculator</h2><br /><br />Favorite Snack: " + fSnack
+//                + "<br />" + "Current age: " + curAge
+//                + "<br />" +"Esitmated Maximum Age: " + maxAge
+//                + "<br />" +"Amount of snacks per day: " + amountPday
+//                + "<br />" +"You will need " + totalc + " chocolate chip to last you until the ripe old age of "+ maxAge);
+
+
+//========= chapter no 6-9 task no 1;
+
+//var n = +prompt("Enter your number ", 10 );
+
+//document.write("Result: " +"<br />" + "The value of n is: " + n +"<br />.................................");
+//n = ++n;
+//document.write("<br /><br />The value of ++n is: " + n
+//                + "<br />Now the value of n is: " + n + "<br /><br /><br /><br />");
+//n = n++
+//document.write("The value of n++ is: " + n +"<br />"
+  //              +"Now the value of n is: " + n +"<br /><br /><br />");
+
+//n = --n;
+//document.write("The value of --n is: " + n 
+  //              + "<br />Now the value of n is: " + n +"<br /><br /><br />")
+
+//n = n--;
+//document.write("The value of n-- is: " + n 
+  //              + "<br />Now the value of n is: " + n )
+
+
+  //========== chapter no 6-9 task no 2;
+
+//  var a = 2; 
+//   var b = 1;
+//   var res = --a - --b + ++b + b--;
+
+//   document.write("a is: "+ a + "<br /> b is: " + b + "<br />result is: " +res);
+
+  //========= chapter no 6-9 task  03;
+
+  //var userInput = prompt("Please enter your name: ");
+  //alert("Great : " + userInput);
+
+
+//========chapter no 6-9 task no 5;
+
+
+// var usertableNo = +prompt("Please enter a number here: ", 5);
+
+// if(usertableNo === 5) {
+//   document.write("<br />table for by default number is: " +usertableNo +"<br /><br/>");
+// } else {
+//   document.write("You have enter a number: " +usertableNo +"<br /><br />")
+// }
+// for(var i =1; i <= 10; i++) {
+//   document.write(usertableNo + " x " + i + " = " + usertableNo * i +"<br />");
+// }
+
+//=======chapter no 6-9 task no 6;
+
+// var sub1 = prompt("Please enter first subject name: ");
+// var sub2 = prompt("Please enter second subject name: ");
+// var sub3 = prompt("Please enter third subject name: ");
+
+// var tMakrs = 100;
+
+// var ob1 = +prompt("Please enter your obtain marks for first subject: ");
+// var ob2 = +prompt("Please enter your obtain marks for second subject: ");
+// var ob3 = +prompt("Please enter your obtain marks for third subject: ");
+
+// var p1 = Math.floor((ob1 / tMakrs) * 100);
+// var p2 = Math.floor((ob2 / tMakrs) * 100);
+// var p3 = Math.floor((ob3 / tMakrs) * 100);
+
+
+
+// document.write("<table>")
+// document.write("<tr>"
+//                 + "<th>Subject</th>"
+//                 + "<th>Total Marks</th>"
+//                 + "<th>Obtained Marks</th>"
+//                 + "<th>Percentage</th>"
+//                 + "</tr>")
+// document.write("<tr>")
+// document.write("<th> " + sub1 + "</th>"
+//                 + "<td>" + tMakrs +"</td>" 
+//                 + "<td>" + ob1 + "</td>"
+//                 + "<td>" + p1 +"%</td>");
+// document.write("</tr>")
+
+// document.write("<tr>")
+// document.write("<th> " + sub2 + "</th>"
+//                 + "<td>" + tMakrs +"</td>" 
+//                 + "<td>" + ob2 + "</td>"
+//                 + "<td>" + p2 +"%</td>");
+// document.write("</tr>")
+
+// document.write("<tr>")
+// document.write("<th> " + sub3 + "</th>"
+//                 + "<td>" + tMakrs +"</td>" 
+//                 + "<td>" + ob3 + "</td>"
+//                 + "<td>" + p3 +"%</td>");
+// document.write("</tr>")
+
+// document.write("</table>")
+
+//====== chapter no 9 - 11 task no 1
+
+// var city = prompt("Please enter city name: ('Hint enter city name: karachi')")
+
+// var changeName = city.toLowerCase();
+
+// if (changeName === "karachi") {
+//   alert("Welcome to city of lights");
+// }
+
+
+// ============ chapter no 9-11 task no 2
+
+// var gender = prompt("Please enter you gender: ");
+
+// var genChange = gender.toLowerCase();
+
+// if(genChange === "male") {
+//   alert("Good Morning Sir:")
+// } else if (genChange === "female") {
+//   alert("Good Morning Ma'am.");
+// } else {
+//   alert("Please enter correct gender");
+// }
+
+
+//======= chapter no 9-11 task no 3
+
+// var color = prompt("Please enter color of road traffic:");
+
+// var cChange = color.toLowerCase();
+
+// if(cChange === "red") {
+//   alert("Must Stop");
+// } else if(cChange === "yellow") {
+//   alert("Ready to move");
+// } else if(cChange === "green") {
+//   alert("Move now");
+// } else {
+//   alert("Not a traffic signal color");
+// }
+
+
+//====== chapter no 9-11 task no 4
+
+// var fuel = +prompt("Please enter remaining fuel: "); 
+ 
+// if(fuel < 0.25) {
+//   alert("Please refill the fuel in your car");
+// }
+
+
+//======= chapter no 9-11 task no 5
+//a
+// var a = 4;
+// if(++a === 5) {
+  // }
+  
+//b
+//   var b = 82;
+  
+//   if(b++ === 83) {
+//      alert("given condition for variable a is true");
+// }
+
+//c
+
+// var c = 12;
+// if(c++ === 13) {
+//   alert("condition 1 is true")
+// }
+
+// if(c === 13) {
+//   alert("condition 2 is true")
+// }
+
+
+// if(++c < 14) {
+//   alert("condition 3 is true")
+// }
+
+// if (c === 14) {
+//   alert("condition 4 is true");
+// }
+
+// d part start
+
+// var materialCost  = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+
+// if(totalCost === laborCost + materialCost) {
+//   alert("The cost equals");
+// }
+
+
+// e part start here
+
+// if(true) {
+//   alert(true);
+// }
+
+// if(false) {
+//   alert(false);
+// }
+
+// f part start here 
+
+// if("car" < "cat") {
+//   alert("car is smaller than cat");
+// }
+
+
+//========= chapter no 9-11 task no 6
+
+// var obM = +prompt("Please enter your obtained marks: ");
+// var totM = +prompt("Please enter your total marks: ");
+
+// var pMark = Math.floor((obM / totM) * 100);
+
+// if(pMark >= 80) {
+  
+// document.write("<h1>Marks Sheet</h1><br /><br />")
+
+// document.write("Total marks: " + totM
+//                 + "<br />Marks Obtained: " + obM
+//                 + "<br />Percentage: " +pMark +"%"
+//                 +"<br />Grade: A-one"+ "<br />Remarks: Excellent");
+// } else if(pMark >= 70) {
+  
+// document.write("<h1>Marks Sheet</h1><br /><br />")
+
+// document.write("Total marks: " + totM
+//                 + "<br />Marks Obtained: " + obM
+//                 + "<br />Percentage: " +pMark +"%"
+//                 +"<br />Grade: A"+ "<br />Remarks: Good");
+// } else if(pMark >= 60) {
+  
+// document.write("<h1>Marks Sheet</h1><br /><br />")
+
+// document.write("Total marks: " + totM
+//                 + "<br />Marks Obtained: " + obM
+//                 + "<br />Percentage: " +pMark +"%"
+//                 +"<br />Grade: B"+ "<br />Remarks: You need to improve");
+// } else {
+  
+// document.write("<h1>Marks Sheet</h1><br /><br />")
+
+// document.write("Total marks: " + totM
+//                 + "<br />Marks Obtained: " + obM
+//                 + "<br />Percentage: " +pMark +"%"
+//                 +"<br />Grade: fail"+ "<br />Remarks: Sorry");
+// }
+
+
+//=======chapter no 9-11 task no 7
+
+// var gues = 8;
+
+// var usProm = +prompt("Enter number from 1 to 10");
+
+// if(usProm === gues) {
+//   alert("Bingo! Correct answer");
+// } else if(usProm === 7 || usProm === 9) {
+//   alert("Close enough to the correct answer");
+// }else if (usProm < 1 || usProm >10) {
+//   alert("Please enter number between 1 to 10")
+// } else {
+//   alert(" try again!")
+// }
+
+
+//======== chapter no 9-11 task no 8
+
+// var nDivide = +prompt("Enter number for checking divide by 3 or not:");
+
+// if(nDivide % 3 === 0) {
+//   alert("The given number is divide by 3");
+// } else {
+//   alert("The given number is not divide by 3");
+// }
+
+
+//======= chapter no 9-11 task no 9
+
+// var evenNum = +prompt("Please enter any number for checking even or odd!");
+
+// if(evenNum % 2 ===0) {
+//   alert("The number is even");
+// } else {
+//   alert("The number is odd");
+// }
+
+
+//========chapter no 9-11 task no 10
+
+// var t = +prompt("Please enter temperature");
+
+// if(t > 40) {
+//   alert("It is too hot outside");
+// } else if(t >30) {
+//   alert("The Weather today is Normal.");
+// } else if(t >20) {
+//   alert("Today's Weather is cool.");
+// } else if(t > 10) {
+//   alert("OMG! Today's weather is so cool.");
+// } else {
+//   alert("tyr again")
+// }
+
+//====== chapter no 9-11 task no 11
+
+// var number1 = +prompt("Please enter first number")
+// var number2= +prompt("Please enter second number")
+// var operator = prompt("Please enter operator here");
+
+// if(operator === "+") {
+//   var add = number1 + number2;
+//   alert("number1 is: " + number1 
+//          +"\nnumber2 is: " + number2
+//          +"\nadd: " + add);
+// }
+
+// if(operator === "-") {
+//   var minus = number1 - number2;
+//   alert("number1 is: " + number1 
+//          +"\nnumber2 is: " + number2
+//          +"\nminus: " + minus);
+// }
+
+// if(operator === "*") {
+//   var multiply = number1 * number2;
+//   alert("number1 is: " + number1 
+//          +"\nnumber2 is: " + number2
+//          +"\nmultiplication: " + multiply);
+// } else if(operator === "/") {
+//   var divi = number1 / number2;
+//   alert("number1 is: " + number1 
+//          +"\nnumber2 is: " + number2
+//          +"\ndivided: " + divi);
+// }else if(operator === "%") {
+//   var moduls = number1 % number2;
+//   alert("number1 is: " + number1 
+//          +"\nnumber2 is: " + number2
+//          +"\nmodules: " + moduls);
+// } else {
+//   alert("please enter correct operator!");
+// }
+
+
+// === chapter no 12-13 takes no 2 
+
+// var n1 = +prompt("Enter first number here");
+// var n2 = +prompt("Enter second number here");
+
+// if( n1 === n2) {
+//   alert("the enter number is equals");
+// } else if( n1 > n2) {
+//   alert("The Number1 is larger then Number2");
+// } else if (n2 > n1) {
+//   alert("The Number2 is larger than Number1");
+// } else {
+//   alert("Please enter correct number:")
+// }
+
+
+// ======= chapter no 12-13 === task no 3
+
+// var check = +prompt("Please enter a number positive and negative");
+
+// if(check < 0) {
+//   alert("The number you have enter is negative")
+// } else if ( check > 0) {
+//   alert("The number you have enter is positive");
+// } else {
+//   alert("please enter correct number")
+// }
+
+
+// ===== chapter no 12-13 task no 4
+
+// var vText = prompt("Please enter one string to check for vowels or not");
+// var vChange = vText.toLowerCase();
+// var vArray = ["a", "e", "i", "o", "u"];
+
+// if(vArray.indexOf(vChange) !== -1) {
+//   alert("true");
+// } else {
+//   alert("fasle");
+// }
+
+
+// ===== chapter no 12-13 taks no 5
+
+// var psd = "imran123";
+// var check1 = prompt("Please enter your password:");
+// var verif = prompt("Please enter again password for verif:");
+
+// if(check1 != "" && verif != null && verif != "" && check1 != null) {
+//   if(psd === check1 && psd === verif) {
+//     alert("Correct! The password you entered matches the original password");
+//   } else {
+//     alert("Incorrect password");
+//   }
+
+// } else {
+//   alert("Please enter your password first!");
+// }
+
+
+// ===== chapter no 12-13 task no 6
+
+// var greeting ;
+// var hour = 13;
+// if (hour < 18) {
+//   greeting = "Good day";
+//   alert(greeting);
+// } else {
+//   greeting = "Good Evening";
+//   alert(greeting);
+// }
+
+// ===== chapter no 12-13 task no 7
+
+// var time = +prompt("Please enter 24 hours clock format time:");
+
+// if(time === 1900) {
+//   if(time >= 0000 && time === 1200) {
+//     alert("Good Morning!")
+//   } else if(time >= 1200 && time < 1700) {
+//     alert("Good afternoon!")
+//   } else if(time >= 1700 && time < 2100) {
+//     alert("Good evening!")
+//   } else if(time >= 2100 && time <= 2359) {
+//     alert("Good night!");
+//   }
+// } else {
+//   alert("not allowed for string!")
+// }
+
+
+//========= chapter no 14-16 task no 3
+
+// var StringArray = ["Imran", "Nasir", "Naveed", "Yasir"];
+
+
+//======= chapter no 14-16 task no 4
+
+// var numberArray = [1 , 3, 4, 5, 3, 2, 7, 8, 9];
+
+//======= chapter no 14-16 task no 5
+
+// var boolArray = [true, false];
+
+//========chapter no 14-16 task no 6
+
+// var mixArray = ["Imran", "Yasir", 23, 42, 60, true, false, "string"];
+
+//========= chapter no 14-16 task no 7
+
+// var list = ["","SSC", "HSC", "BCS", "BS", "BCOM", "MS", "Phil.", "PhD"];
+
+// document.write("<h2>Qualifications</h2<br /><br /><br /><br />");
+
+// for(var i = 1; i < list.length; i++) {
+//      document.write(i +") " + list[i] +"<br />" );  
+// }
+
+//========= chapter no 14-16 task no 8
+
+// var stdName = ["Imran", "Naveed", "Umar"];
+// var score = [320, 230, 480];
+// var totalMarks = 500;
+
+// var percent = Math.floor((score / totalMarks) * 100);
+
+
+// for(var i = 0; i <stdName.length; i++) {
+//   for(var j = 0; j <score.length; j++) {
+//     document.write("Score of " + stdName[i] + " is " + score[j] +"<br />");
+//   }
+// }
+
+
+// //======== chapter no 14-16 task no 9
+
+// var color = ["red", "green", "blue"];
+
+// document.write("Color: <br />" + color);
+
+// var updateColor = prompt("write your color name here and this is add to beginning in array")
+
+// var userUpdate = color.unshift(updateColor);
+
+// document.write("<br /><br />Update color list: <br />" + color);
+
+// // ===== chapter no 14-16 task no 9  b part
+
+// var color = ["red", "green", "blue", "yellow", "lightblue", "grey"];
+
+// document.write("color: <br />" + color);
+// var updateColor = prompt("writer your color name here and this is add to end in the array");
+// var userAdd = color.push(updateColor);
+// document.write("<br /><br />Update color list: <br />" + color);
+
+// color.shift(); 
+// document.write("<br /><br />delete first: <br />" + color)
+// color.pop()
+// document.write("<br /><br />delete last: <br />" + color)
+// var userAddIndex = +prompt("write here index number to add an element in array anywere");
+// var userstring = prompt("color to add anywere in array");
+
+// color.splice(userAddIndex, 0, userstring);
+// document.write("<br /<br />add color name in array:<br />" + color);
+
+// var userDeleIndex = +prompt("write here index number to delet an element in array");
+// color.splice(0,userDeleIndex);
+
+// document.write("<br /><br />Deleted in user index number:<br />" + color)
+
+
+// //======== chapter no 14-16 task no 10
+
+// var scoreStd = [320, 230, 480, 120];
+// document.write("Score of Students : " + scoreStd +"<br />")
+
+// var sortArray = scoreStd.sort();
+
+// document.write("Ordered Score of Students : " + sortArray);
+
+
+
+
+
+// // ===== chapter no 14-16 task no 11
+
+// var city = ["karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+// var copyCity = city.slice(2, 4);
+
+// document.write("Cities list:<br />" + city +"<br /><br />");
+
+// document.write("Selected cities list: <br />" + copyCity);
+
+
+
+//========== chapter no 14-16 task no 12
+
+// var arr = ["This", "is", "my", "cat"];
+// var singalArr = arr.join(" ");
+// document.write("<h2>Array</h2>" + arr);
+
+// document.write("<h2>String:</h2>" + singalArr);
+
+
+// //========== chapter no 14-16 task no 13
+
+// var ArrayDiv = ["keyboard", "mouse", "printer", "monitor"];
+
+// document.write("Devices: <br />" + ArrayDiv +"<br /><br /><br />");
+
+// for(var i= 0; i <ArrayDiv.length; i++) {
+//   document.write("Out: <br />" + ArrayDiv[i] +"<br />");
+// }
+
+
+//======= chpater no 14-16 task no 14 
+
+// var ar = ["keyboard", "mouse", "printer", "monitor"];
+
+// document.write("Devices: <br />" + ar +"<br /><br /><br />");
+// var newAr = ar.reverse();
+
+// for(var i = 0; i <newAr.length; i++) {
+//   document.write("Out: <br />" + newAr[i] +"<br />");
+// }
+
+// ========== chapter no 14-16 task no 15
+
+// var mobName = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+// document.write("<select>")
+
+// for(var i =0 ; i < mobName.length; i++) {
+//   document.write("<option>" + mobName[i] + "</option><br />");
+// }
+
+// document.write("</select>")
+
+
+//========== chapter no 17-20 task no 1
+
+// var twoArray = [[],[]];
+
+
+
+
+
+// === chapter no 17-20 task no 3
+
+// var i ;
+// for(i = 1; i <= 10; i++ ) {
+//   document.write(i +"<br />")
+// }
+
+// ===== chapter no 17-20 task no 4
+
+// var tableNum = +prompt("Enter a number to show its multiplication table:");
+// var tableLenth = +prompt("Enter length multiplication table:");
+
+// document.write("Multiplication table of " + tableNum +"<br />Length " + tableLenth +"<br /><br />");
+
+// for(var i = 1; i <= tableLenth; i++) {
+//   document.write(tableNum + " x " + i + " = " + i * tableNum +"<br />");
+// }
+
+
+// ========= chapter no 17-20 task no 5
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+// for(var i = 0; i < fruits.length; i++) {
+//   document.write(fruits[i] + "<br />");
+// }
+
+// document.write("<br />")
+
+// for(var j = 0; j < fruits.length; j++) {
+//   document.write("Element at index " + j + " is " + fruits[j] +"<br />");
+// }
+
+
+// chapter no 17-20 task no 6
+
+// document.write("<h1>Counting:</h1> <br />");
+
+// for(var i = 1; i <= 15; i++) {
+//   document.write(i + ", ")
+// }
+
+// document.write("<h1> Reverse counting:</h1> <br />");
+//  for(var i = 10; i >= 1; i--) {
+//    document.write(i + ", ")
 //  }
 
-
-
-// //=======chapter no 26-30 task no 3
-
-// var v = +prompt("Please enter a value here: ");
-
-// var abso = Math.abs(v);
-
-// document.write("The absolute value of " + v + " is " + abso);
-
-
-// //======= chapter no 26-30 task no 4
-
-// var n = Math.floor(Math.random() * 10); // return a random integer between 0 to 9;
-// var n1 = Math.floor(Math.random() * 20); // return a random integer between 0 to 20;
-
-// document.write("Random dice value: " + n + "<br /><br />Random dice value: " + n1);
-
-
-// //====== chapter no 26-30 task no 5
-
-// var num1 = Math.floor(Math.random() * 2) + 1;
-
-// if(num1 === 1) {
-//     document.write(num1 + "<br /><br />random coin value: Tails");
-// } else {
-    
-//     document.write(num1 + "<br /><br />random coin value: Heads");
-// }
-
-
-
-// //==== chapter no 26-30 task no 6
-
-// var rand = Math.floor(Math.random() * 100) + 1;
-
-// document.write("random number between 1 and 100: " + rand);
-
-
-// // ==========chapter no 26-30 task no 7
-
-// var w = prompt("Enter your weight in kilograms");
-// var r = w.slice(0, 1);
-//     parseInt(r);
-// var f = r + 8.3;
-
-// document.write("The Weight of user is " + f + " Kilograms");
-
-
-
-// //========= chapter 26-30 task no 8
-
-// var secr = Math.floor(Math.random() * 10) + 1;
-// var userValue = +prompt("Enter a number between 1 and 10");
-
-// if(userValue === secr) {
-//     alert("Congratulate you found the secret number: ");
-// } else {
-//     alert("Try again!");
-// }
-
-
-
-// //=== chapter no 31-34 task no 1
-
-var rightNow = new Date();
-
-// document.write(rightNow)
-
-//======= chapter no 31-34 task no 2
-
-// var theMonth = rightNow.getMonth();
-// var month = ["January","February","March","April","May","June","July",
-//               "August","September","October","November","December"];
-
-// document.write("Current Month: " + month[theMonth]);
-
-// //==== chapter no 31-34 task no 3
-
-// var day = ["sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
-// var currentDay = rightNow.getDay();
-
-// var res = day[currentDay].substring(0, 3);
-
-// document.write("Today is " + res);
-
-
-// //========chapter no 31-34 task no 4
-
-
-// var day = ["sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
-// var today = rightNow.getDay();
-
-// if(day[today] === "sunday" || day[today] === "Saturday") {
-//     document.write("It's Fun day ");
-// } else{
-//     document.write("Today is not Fun day")
-// }
-
-// //======== chapter no 31-34 task no 5
-
-// // var dt = new Date();
-
-// if(new Date() > 16) {
-//     alert("First fifteen days of the month")
-// } else  {
-//     alert("Last days of the month");
-// }
-
-
-
-//=======chapter no 31-34 task no 6
-
-// var currentDate = new Date();
-// var  mili = currentDate.getTime();
-
-// var getmili = currentDate.getTime();
-
-// console.log(getmili);
-
-// document.write("Current Date: " + currentDate
-//                 + "<br />Elapsed milliseconds since January 1, 1970: " + mili);
-
-
-
-// //========== chapter no 31-34 task no 7
-
-// var td = new Date();
-
-// var hour = td.getHours();
-// console.log(hour)
-
-// if(hour >= 11) {
-//     alert("It's PM");
-// } else {
-//     alert("It's AM");
-// }
-
-
-// //====== chapter no 31-34 task no 8
-
-// var laterDate = new Date("Dec 31, 2020");
-
-// document.write("Later date: " + laterDate);
-
-
-
-
-
-// ========== chapter no 31-34 task no 10
-
-// var td = new Date("Dec 05 2015");
-
-// var td1 = new Date("Jan 01, 2015");
-
-// var st = td1.getSeconds();
-// var st1 = td.getSeconds();
-
-// var Result = st - st1;
-// console.log(Result);
-
-
-
-// //========== chapter no 31-34 task no 14
-
-// var cusName = "ABC Customer";
-// var mt = "February";
-// var units = 410;
-// var chargesUnit = 16;
-// var letPay = 350;
-
-// var netAmount = units * chargesUnit;
-// var grossAmount = netAmount + letPay;
-
-// document.write("<h1>K-Electric Bill</h1><br /><br />"
-//                 + "Customer Name: " + cusName.bold()
-//                 + "<br />Month: " + mt.bold()
-//                 + "<br />Number of units: <b>" + units +"</b><br />"
-//                 + "Charges per unit: <b>" + chargesUnit + "</b><br />" 
-//                 + "<br /><br />Net Amount Payable(within Due Date): <b>" +netAmount +"</b><br />"  
-//                 +"Late payment surcharges: <b>" + letPay +"</b><br />"
-//                 + "Gross Amount Payable(after Due Date): <b>" + grossAmount +"</b>")
-
-
-
-// //========= chapter no 35-38 task no 1
-
-// function currentDate() {
-//     var dt = new Date();
-//     document.write(dt);
-// }
-
-// // function call 
-// currentDate();
-
-// //======== chapter no 35-38 task no 2 
-
-// function greet(f, l) {
-//     alert("Hello " + f + " " + l);
-// }
-
-// var first = prompt("Please enter you first name: ")
-// var last = prompt("Please enter you last name: ")
-
-// greet(first, last);
-
-// //========chapter no 35-38 task no 3
-
-// function ad(n1, n2) {
-//    return  n1 + n2;
-// }
-
-// var s1 = +prompt("Please enter first number here: ");
-// var s2 = +prompt("Please enter second number here: ");
-// document.write("first number: " + s1 + "<br /> second number: " + s2+ "<br />add: " + ad(s1,s2));
-
-// //========chapter no 35-38 task no 4
-
-// function calculator(n1, n2, op) {
-//     if(op === "+") {
-//         var add = n1 + n2;
-//     return alert("first number: " + n1 +"\nsecond number: " + n2 +"\nOperator : " + op+ "\nResult: " + add);
-//     } else if(op === "-") {
-//         var minus = n1 - n2;
-//     return alert("first number: " + n1 +"\nsecond number: " + n2 +"\nOperator : " + op+ "\nResult: " + minus);
-//     } else if(op === "*") {
-//         var multi = n1 * n2;
-//     return alert("first number: " + n1 +"\nsecond number: " + n2 +"\nOperator : " + op+ "\nResult: " + multi);
-//     } else if (op === "/") {
-//         var divide = n1 / n2;
-//     return alert("first number: " + n1 +"\nsecond number: " + n2 +"\nOperator : " + op+ "\nResult: " + divide);
-//     } else if(op === "%") {
-//         var mud = n1 % n2;
-//     return alert("first number: " + n1 +"\nsecond number: " + n2 +"\nOperator : " + op+ "\nResult: " + mud);
-//     } else {
-//         return alert("Please enter a valid Operator :");
-//     }
-// }
-
-// var number1 = +prompt("Please enter first number here: ");
-// var number2 = +prompt("Please enter second number here: ");
-// var opera = prompt("Please enter operator number here:(+ / * % -) ");
-
-// calculator(number1, number2, opera);
-
-
-// // =========chapter no  35-38 task no 5
-
-// function sumOfNum(s) {
-//     var nn
-//     for(var i = 1; i <= s; i++) {
-//         var sum = 0;
-//          var nn = i * i;
-//          sum = nn;
-//     }
-//     document.write("The sum of sqaures for numbers up to and including " + s + " is " + sum)
-// }
-
-// var sq = 5;
-// sumOfNum(sq)
-
-
-// // ========= chapter no 35-38 task no 6
-
-// function factorialNum(n) {
-//     var ans = 1;
-//     if(n === 0 || n === 1) {
-//         return ans;
-//     } else {
-//         for(var i = n; i >=1; i--) {
-//             ans = ans * i;
-//         }
-//         return ans;
-//     }
-// }
-
-
-// var num = +prompt("Please enter a number for factorial: ");
-
-// var finalResult = factorialNum(num);
-
-// document.write("The Factorial of " + num + " is " + finalResult);
-
-
-
-//======= chapters no 35-38 task no 7
-
-// var lastNum = 0;
-// function find(n) {
-//     return n.charAt(0);
-// }
-
-// function findLast(n) {
-//     return n % 10;
-// }
-
-
-
-// var np = prompt("Enter number here: ");
-
-//  var res = find(np)
-//  var res1 = findLast(np)
+//   document.write("<h1>Even:</h1> <br />");
  
-//  console.log("first num is: " + res)
-//  console.log("last num is: " + res1)
-
-//  for(var i = res; i <= res1; i++) {
-//     document.write(i +"<br")
-// }
-
-// //===== chaapter no 35-38 task no 7
-
-// var first = +prompt("Enter first number here: ");
-// var last = +prompt("Enter last number here ");
-
-
-// function counting(n1, n2) {
-//     for(var i = n1; i <= n2; i++) {
-//         document.write(i + "<br />");
+//   for( var i = 0; i <= 20; i++ ) {
+//     if(i % 2 === 0) {
+//       document.write(i + ", ");
 //     }
-// }
+//   }
 
-// counting(first, last);
-
-// //===== chapter no 35-38 task no 9
-
-// function area(w, h) {
-//     return w * h;
-// }
-
-// var n1 = 12; 
-// var n2 = 10;
-
-// // pass by variable 
-//  var res = area(n1, n2)
+//   document.write("<h1>Odd:</h1> <br />");
  
-//  document.write("The Area of your rectangle is: " + res + "<br /><br /><br />");
-
-//  // pass by value 
-//  var r = area(34, 12);
-
-//  document.write("the are of your rectangle is: " + r);
-
-
-
-// //=== chapter no 35-38 task no 10
-
-// function palindrome(s) {
-//     var n ;
-//     n = s.split('').reverse().join('')
-
-//     if( s === n) {
-//      return alert("The String is palindrome")
-//     } else {
-//         return alert("The Strinng is not palindrome")
+//   for( var i = 0; i <= 20; i++ ) {
+//     if(i % 2 != 0) {
+//       document.write(i + ", ");
 //     }
-    
-// }
-
-// var st = prompt("Please enter any string")
-
-// palindrome(st)
-
-// //=========== chapter no 35-38 task no 11
+//   }
 
 
-
-// //capitalize_Words 
-// function capitalize_Words(str)
-// {
-//  return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
-// }
-// var st = prompt("Please enter any string here: ");
-
-// var res = capitalize_Words(st);
+//   document.write("<h1>Series:</h1> <br />");
  
-// document.write("You Enter String : " + st +"<br /><br />UpperCase : " + res);
-
-
-// // =========== chapter no 35-38 task no 12
-
-
-// function findST(s) {
-//     var array1 = s.match(/\w[a-z]{0,}/gi);
-//     var res = array1[0];
-
-//     for(var i = 1; i < array1.length; i++) {
-//         if(res.length < array1[i].length) {
-//             res = array1[i];
-//         }
+//   for( var i = 2; i <= 20; i++ ) {
+//     if(i % 2 === 0) {
+//       document.write(i + "k, ");
 //     }
+//   }
 
-//     return res;
+
+
+
+//==== chapter no 17-20 task no 7
+
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+// var userSearch = prompt("Welcome to ABC Bakery What do you want to order sir/ma'am?");
+// var change = userSearch.toLowerCase();
+// var ind = arr.indexOf(change);
+
+// if(arr.indexOf(change) != -1) {
+//    alert(userSearch + " is available at index " + ind + " in our bakery");
 // }
 
-// var userST = prompt("Please enter any string here: ");
 
-// var n = findST(userST);
+// ==== chapter no 17-20 task no 8 
 
-// document.write("You Enter String: " + userST +"<br /><br />longest string is: " + n);
+// var a = [24, 53, 78, 91, 12]
+// var larger ;
 
+// larger = Math.max.apply (null, a);
 
-// //========= chapter no 35-38 task no 13
+// document.write("Array items: ")
 
-// function countSTL(str, letter) {
-//     var count_let = 0;
-//     for(var i = 0; i < str.length; i++) {
-//         if(str.charAt(i) === letter) {
-//             count_let += 1
-//         }
-//     }
-
-//     return count_let;
+// for(var i = 0; i <a.length; i++) {
+//   document.write(a[i] + ",")
 // }
 
-// r = countSTL("JSResourceS.com", 'o');
-
-// document.write("count the num of occurrences o: string: JSResources.com is : " + r)
+// document.write("<br />The largest number is " + larger)
 
 
+// ==== chapter no 17-20 task no 9
 
+// var s = [24, 53, 78, 91, 12]
+// var smal ;
+
+// smal = Math.min.apply (null, s);
+
+// document.write("Array items: ")
+
+// for(var i = 0; i <s.length; i++) {
+//   document.write(s[i] + ",")
+// }
+
+// document.write("<br />The largest number is " + smal);
+
+
+// === chapter no 17-20 task  no 10
+
+// var nm = 5;
+
+// for(var i = 1; i <= 20; i++) {
+//   document.write(nm * i + ", ")
+// }
